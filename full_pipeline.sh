@@ -56,5 +56,4 @@ clang output.ll -O3 -o final_exec
 echo "performance test"
 /usr/bin/time -v ./final_exec
 
-echo "[✅] Done!"
 
