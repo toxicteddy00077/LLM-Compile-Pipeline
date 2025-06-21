@@ -9,4 +9,7 @@ A small compilation pipeline made for LLVM infrastructure family of languages. I
 
 *left side: avg execution time for standard lowered executable ; right avg execution time for optimally lowered executable*
 
+## Execution:
+![screenshot](https://github.com/toxicteddy00077/LLM-Compile-Pipeline/blob/main/assets/flowchart.png) 
+
 
