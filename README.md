@@ -10,7 +10,7 @@ A small compilation pipeline made for LLVM infrastructure family of languages. I
 *left : standard exectution   |     right : LLM optmized execution*
 
 ## Execution:
-![screenshot](https://github.com/toxicteddy00077/LLM-Compile-Pipeline/blob/main/assets/flowchart.png) 
+![screenshot]() 
 
 ## Pipeline:
 
