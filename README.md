@@ -12,5 +12,7 @@ A small compilation pipeline made for LLVM infrastructure family of languages. I
 ## Execution:
 ![screenshot](https://github.com/toxicteddy00077/LLM-Compile-Pipeline/blob/main/assets/flowchart.png) 
 
-## Pipeline:
+## Background:
+Currently there havent been many improvments in compiler insfrastructure for code optmization. LLVM based compiler still rely heavily on heurisitcs and langauegs like C, C++ whihc are directly are converted to IR, are unable to be optmized at a higher logical level. This is where MLIR and LLMs come into play. Multi-Level intermediate representation allows capturing high level code logic in dialects, which may be lost when code is lowered direclty to IR. During this lowering a finetuned LLM can deteermine the most optimal pass based on the MLIR code, and thus lower it with Loop, Memory or domain specific optimization. This is then convert back to IR and fianlly a binary executbale. 
 
+By doing this we no longer need to rely on heuristics or guessing for optmization, and in the near future, a lightweingt LLM may replace these heuristics.  
